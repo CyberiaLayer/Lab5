@@ -4,11 +4,11 @@ import java.awt.Color;
 
 /**
  * Representerar en riktad kant i en graf.
- * 
+ *
  * En kant kopplar samman två vertex-objekt och innehåller information om
  * startvertex, slutvertex, avstånd mellan vertexarna samt en färg som kan
  * användas vid visualisering.
- * 
+ *
  * Distansen beräknas automatiskt med hjälp av den euklidiska distansen
  * mellan vertexarnas koordinater.
  *
@@ -23,7 +23,7 @@ public class Edge<T> {
 
     /**
      * Skapar en ny riktad kant mellan två vertexar.
-     * 
+     *
      * Distansen mellan vertexarna beräknas automatiskt och färgen sätts
      * till grå som standard.
      *
