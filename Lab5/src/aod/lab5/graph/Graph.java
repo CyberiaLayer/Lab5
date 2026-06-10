@@ -10,7 +10,7 @@ import java.util.List;
  * Grafen lagrar vertexar i en HashMap där varje vertex identifieras av ett
  * unikt info-värde av typen T. Kanterna lagras som adjacenslistor
  * där varje vertex har en lista med sina utgående kanter.
- * 
+ *
  * Grafen hanterar oriktade kanter genom att internt lagra två riktade
  * Edge-objekt, ett i vardera riktningen. Antalet kanter som returneras
  * av numberOfEdges() räknar däremot varje oriktad kant endast en gång.
@@ -57,7 +57,7 @@ public class Graph<T> implements GraphInterface<T> {
 
     /**
      * Returnerar en lista med alla vertexar som finns i grafen.
-     * 
+     *
      * Metoden skapar en ny ArrayList} baserad på värdena i
      * {@code vertices}. Detta gör att anroparen får en lista med grafens
      * vertex-objekt utan att direkt få tillgång till den interna HashMap:en.
@@ -91,7 +91,7 @@ public class Graph<T> implements GraphInterface<T> {
 
     /**
      * Lägger till en ny vertex i grafen.
-     * 
+     *
      * Info-värdet används som unik identifierare. Om grafen redan innehåller
      * en vertex med samma identifierare gör metoden ingenting. På så sätt
      * undviks dubbletter i grafen.
